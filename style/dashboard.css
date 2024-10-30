@@ -1,0 +1,52 @@
+#knox_dashboard_widget
+{
+    background:#222121 !important;
+    color:white;
+}
+
+#knox_dashboard_widget h3
+{
+    color:white;
+}
+
+#knox_dashboard_widget .inside
+{
+    background:url("../images/bg.jpg");
+    background-size:100% 100%;
+    padding:5%;
+}
+
+#knox_dashboard_widget .box
+{
+    display:inline-block;
+    vertical-align:top;
+    color:white;
+    background:rgba(33,33,33,.5);
+    padding: 20px;
+    text-align:center;
+    position:relative;
+    width:90%;
+}
+
+#knox_dashboard_widget .box .inner{
+    padding:15px;
+    background:#e1e1e1;
+    color:black;
+}
+
+#knox_dashboard_widget .inside h3
+{
+    color:black;
+    font-size:18px;
+}
+
+#knox_dashboard_widget .event_captions
+{
+
+}
+
+#knox_dashboard_widget .event_captions .caption
+{
+    font-weight:bold;
+    text-shadow:1px 1px 1px black;
+}

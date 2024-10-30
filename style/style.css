@@ -1,0 +1,162 @@
+html
+{
+    background:url("../images/bg.jpg");
+    background-size:100% 100%;
+}
+
+a{
+	border:0px !important;
+}
+
+#knox
+{
+    text-align:center;
+}
+
+#knox .box h3
+{
+    color:black;
+}
+
+
+#knox .box
+{
+    display:inline-block;
+    vertical-align:top;
+    color:white;
+    background:rgba(33,33,33,.5);
+    padding: 20px;
+    text-align:center;
+    position:relative;
+    min-width:350px;
+}
+
+#knox .box .inner{
+padding:15px;
+    background:#e1e1e1;
+    color:black;
+}
+
+#knox .box .inner .top_row{
+background:#222121;
+    margin:-15px;
+    margin-bottom:15px;
+    padding-left:15px;
+    padding-right:15px;
+    padding-top:10px;
+    min-height:100px;
+}
+
+#knox .box table,
+#knox .box tr,
+#knox .box th,
+#knox .box td,
+{
+    text-align:center;
+}
+
+#knox .box .inner .tabs{
+width:100%;
+    height:100px;
+}
+
+#knox .box .inner .tabs .tab{
+    display:inline-block;
+    height:100%;
+    text-align:center;
+    cursor: pointer;
+    padding:10px;
+    float:right;
+}
+
+#knox .box .inner .tabs .tab:hover
+{
+    background:rgba(255,255,255,0.1);
+}
+
+#knox .box .inner .tabs .tab .icon{
+    height:40%;
+}
+
+#knox .box .inner .tabs .tab a
+{
+    text-decoration:none;
+    border:0px;
+    outline: none;
+}
+
+#knox .box .inner .tabs .tab .title{
+text-align:center;
+    color:white;
+    font-weight: bold;
+    height:40%;
+    text-decoration:none;
+}
+
+#knox .box .logo
+{
+    width:200px;
+    height:auto;
+}
+
+#knox .box input[type="button"]{
+    background:#222121;
+    color:white !important;
+    border:0px;
+    border-radius: 5px;
+}
+
+#knox .box input[type="text"],
+#knox .box input[type="password"]{
+    background-color:white !important;
+}
+
+#knox input[type="button"]
+{
+    background: white;
+    border-width: 2px;
+    border-color: black;
+    display: inline-block;
+    padding: 5px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    color:#222121 !important;
+}
+
+#knox .logo
+{
+    max-width:300px;
+    float:left;
+}
+
+.websites_list .website_option
+{
+    padding:10px;
+    padding-left:15px;
+    padding-right:15px;
+    border-radius:5px;
+    font-size:20px;
+    cursor:pointer;
+    background:#222121;
+    color:white;
+    margin-top:10px;
+    margin-bottom:10px;
+
+    transition: .2s ease-in;
+    -moz-transition: .2s ease-in;
+    -webkit-transition: .2s ease-in;
+
+    opacity:0.8;
+    font-weight:bold;
+}
+
+.websites_list .website_option:hover
+{
+    opacity:1;
+}
+
+
+
